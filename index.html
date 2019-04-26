@@ -59,7 +59,7 @@
 	$(document).ready(function(){
 		var height = document.documentElement.getBoundingClientRect().height;
 		console.log(height);
-		if($('.content').height() > $('.sidebar').height()){
+		if(height > $('.sidebar').height()){
 			$('.sidebar').height(height);			
 		}
 	});
